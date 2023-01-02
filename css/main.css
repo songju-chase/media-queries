@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 339px) {
     body{
-        font-family: Gill Sans sans-serif;
+        font-family: "Comic Sans MS";
         margin: 0;
         padding: 0;
         width: 100%;
@@ -69,6 +69,19 @@
         height: 224px;
     }
 
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    #social-media-links{
+        display: none;
+    }
 
 }
 @media screen and (min-width: 1024px) {
