@@ -1,4 +1,5 @@
-.container{
+/*added container wrapper to html*/
+.container {
     display: flex;
     flex-direction: column;
     padding: 1em;
@@ -17,10 +18,7 @@
 i:hover{
     color: lightblue;
 }
-
-
-
-
+/*mobile screen*/
 @media screen and (min-width: 339px) {
     body{
         font-family: Arial;
@@ -85,9 +83,8 @@ i:hover{
         width: 100%;
         align-items: center;
     }
-
-
 }
+/*desktop screen*/
 @media screen and (min-width: 1024px) {
     body {
         font-family: "Comic Sans MS";
@@ -95,52 +92,60 @@ i:hover{
         padding: 0;
         width: 100%;
     }
-.alert-info {
-    display: none;
-}
-h1 {
-    display: flex;
-    justify-content: flex-start;
-    font-size: 48px;
-}
-.nav-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-.nav-links li {
-    background: none;
-}
-.header-img img{
-    width: 100%;
-    height: auto;
-}
-.row {
-    display: flex;
-    flex-direction: row;
-    margin-right: 2em;
-    margin-bottom: 5em;
-    flex-grow: 1;
-}
-.main{
-    margin-right: 2em;
-}
-.sub-section{
-    width: 80%;
 
-}
-.desktop{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.footer2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-}
+    .alert-info {
+        display: none;
+    }
 
+    h1 {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 48px;
+    }
 
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .nav-links li {
+        background: none;
+    }
+
+    .header-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        margin-right: 2em;
+        margin-bottom: 5em;
+        flex-grow: 1;
+    }
+
+    .main {
+        margin-right: 2em;
+    }
+
+    .sub-section {
+        width: 80%;
+
+    }
+    /*added desktop wrapper to html*/
+    .desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /*added footer2 wrapper to html*/
+    .footer2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
 }
