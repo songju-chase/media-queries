@@ -33,12 +33,12 @@ i:hover{
         border-style: solid;
         border-color: lightgray;
         border-width: .5px;
-
         text-align: center;
     }
 
     .alert-info a{
         text-decoration: none;
+        color: black;
     }
 
     h1{
