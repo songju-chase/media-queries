@@ -122,9 +122,9 @@ h1 {
     margin-bottom: 5em;
     flex-grow: 1;
 }
-/*.main{*/
-/*    width: 90%;*/
-/*}*/
+.main{
+    margin-right: 2em;
+}
 .sub-section{
     width: 80%;
 
